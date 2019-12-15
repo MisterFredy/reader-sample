@@ -32,3 +32,11 @@ main.go     //main process from config,and core first running apps
 
 you can request merge if you have some good idea.im open how to make this can be reusable
 clean and easy to learn for newbie from golang
+
+# to do
+
+- core upload file
+- more error handling
+- core csv
+- core pdf
+- core UI
