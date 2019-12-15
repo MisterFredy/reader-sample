@@ -21,8 +21,8 @@ func Migrate(db *gorm.DB) {
 		log.Fatalf("cannot migrate table: %v", err)
 	}
 
-	err = db.Debug().Model(&models.Post{}).AddForeignKey("author_id", "users(id)", "cascade", "cascade").Error
+	/*err = db.Debug().Model(&models.Post{}).AddForeignKey("author_id", "users(id)", "null", "null").Error
 	if err != nil {
 		log.Fatalf("attaching foreign key error: %v", err)
-	}
+	}*/
 }
