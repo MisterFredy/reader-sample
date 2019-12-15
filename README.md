@@ -28,3 +28,6 @@ models       //make models data im using ORM, and schema for migration data.
 main.go     //main process from config,and core first running apps
 .env        //environment you can make some easy config from this file
 ```
+#contribution
+you can request merge if you have some good idea.im open how to make this can be reusable
+clean and easy to learn for newbie from golang
