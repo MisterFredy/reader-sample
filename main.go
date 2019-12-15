@@ -30,5 +30,7 @@ func init() {
 
 func main() {
 	//route.Run(os.Getenv("APP_PORT"))
-	route.Run(":80")
+	port := ":" + os.Getenv("APP_PORT")
+
+	route.Run(port)
 }
