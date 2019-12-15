@@ -16,7 +16,7 @@ go get github.com/joho/godotenv
 go get gopkg.in/go-playground/assert.v1
 ```
 
-#How to use
+# How to use
 we have structure like this,and you can create your own project like this
 
 ```
@@ -28,6 +28,7 @@ models       //make models data im using ORM, and schema for migration data.
 main.go     //main process from config,and core first running apps
 .env        //environment you can make some easy config from this file
 ```
-#contribution
+# contribution
+
 you can request merge if you have some good idea.im open how to make this can be reusable
 clean and easy to learn for newbie from golang
