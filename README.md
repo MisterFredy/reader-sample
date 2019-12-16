@@ -4,6 +4,11 @@
 # depdency
 depedency for installing this skeleton code.
 
+# last update
+1.add chat function easy using library chat with handle chatroom
+2.email sender
+3.file uploader
+
 ```
 go get github.com/badoux/checkmail
 go get github.com/jinzhu/gorm
@@ -14,6 +19,8 @@ go get github.com/jinzhu/gorm/dialects/mysql" //If using mysql
 go get github.com/jinzhu/gorm/dialects/postgres //If using postgres
 go get github.com/joho/godotenv
 go get gopkg.in/go-playground/assert.v1
+go get github.com/gorilla/websocket
+go get github.com/novalagung/gubrak
 ```
 
 # How to use
