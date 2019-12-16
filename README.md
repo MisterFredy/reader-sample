@@ -4,11 +4,6 @@
 # depdency
 depedency for installing this skeleton code.
 
-# last update
-1.add chat function easy using library chat with handle chatroom
-2.email sender
-3.file uploader
-
 ```
 go get github.com/badoux/checkmail
 go get github.com/jinzhu/gorm
@@ -22,6 +17,14 @@ go get gopkg.in/go-playground/assert.v1
 go get github.com/gorilla/websocket
 go get github.com/novalagung/gubrak
 ```
+
+# last update
+```
+1.add chat function easy using library chat with handle chatroom
+2.email sender
+3.file uploader
+```
+
 
 # How to use
 we have structure like this,and you can create your own project like this
